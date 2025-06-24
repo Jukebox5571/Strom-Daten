@@ -1,0 +1,27 @@
+name: Update Awattar Data
+
+on:
+  schedule:
+    - cron: "5 23 * * *"  # täglich um 23:05 UTC
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install pandas requests
+      - name: Run script
+        run: python3 strompreise.py
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add strompreise_awattar.csv
+          git commit -m "Update Strompreise automatisch"
+          git push
