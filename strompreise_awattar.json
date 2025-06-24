@@ -1,0 +1,94 @@
+[
+  {
+    "timestamp": "2025-06-23 12:00:00",
+    "preis_ct_kwh": -1.28
+  },
+  {
+    "timestamp": "2025-06-23 13:00:00",
+    "preis_ct_kwh": -2.65
+  },
+  {
+    "timestamp": "2025-06-23 14:00:00",
+    "preis_ct_kwh": -3.27
+  },
+  {
+    "timestamp": "2025-06-23 15:00:00",
+    "preis_ct_kwh": -3.27
+  },
+  {
+    "timestamp": "2025-06-23 16:00:00",
+    "preis_ct_kwh": -2.5
+  },
+  {
+    "timestamp": "2025-06-23 17:00:00",
+    "preis_ct_kwh": -1.31
+  },
+  {
+    "timestamp": "2025-06-23 18:00:00",
+    "preis_ct_kwh": -0.1
+  },
+  {
+    "timestamp": "2025-06-23 19:00:00",
+    "preis_ct_kwh": 2.0
+  },
+  {
+    "timestamp": "2025-06-23 20:00:00",
+    "preis_ct_kwh": 8.35
+  },
+  {
+    "timestamp": "2025-06-23 21:00:00",
+    "preis_ct_kwh": 9.0
+  },
+  {
+    "timestamp": "2025-06-23 22:00:00",
+    "preis_ct_kwh": 9.78
+  },
+  {
+    "timestamp": "2025-06-23 23:00:00",
+    "preis_ct_kwh": 8.95
+  },
+  {
+    "timestamp": "2025-06-24 00:00:00",
+    "preis_ct_kwh": 7.71
+  },
+  {
+    "timestamp": "2025-06-24 01:00:00",
+    "preis_ct_kwh": 6.68
+  },
+  {
+    "timestamp": "2025-06-24 02:00:00",
+    "preis_ct_kwh": 6.38
+  },
+  {
+    "timestamp": "2025-06-24 03:00:00",
+    "preis_ct_kwh": 5.81
+  },
+  {
+    "timestamp": "2025-06-24 04:00:00",
+    "preis_ct_kwh": 6.65
+  },
+  {
+    "timestamp": "2025-06-24 05:00:00",
+    "preis_ct_kwh": 6.97
+  },
+  {
+    "timestamp": "2025-06-24 06:00:00",
+    "preis_ct_kwh": 8.82
+  },
+  {
+    "timestamp": "2025-06-24 07:00:00",
+    "preis_ct_kwh": 8.8
+  },
+  {
+    "timestamp": "2025-06-24 08:00:00",
+    "preis_ct_kwh": 4.13
+  },
+  {
+    "timestamp": "2025-06-24 09:00:00",
+    "preis_ct_kwh": -0.0
+  },
+  {
+    "timestamp": "2025-06-24 10:00:00",
+    "preis_ct_kwh": -0.4
+  }
+]
