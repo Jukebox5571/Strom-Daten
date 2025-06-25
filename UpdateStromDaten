@@ -2,7 +2,7 @@ name: Update Awattar Data
 
 on:
   schedule:
-    - cron: "50 14 * * *"  # täglich um 23:05 UTC (mm-hh)
+    - cron: "7 15 * * *"  # täglich um 23:05 UTC (mm-hh)
   workflow_dispatch:
 
 jobs:
@@ -23,5 +23,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add strompreise_awattar.csv
-          git commit -m "Update Strompreise automatisch"
+          git commit -m "UpdateStromDaten"
           git push
