@@ -9,7 +9,7 @@ url = "https://api.awattar.de/v1/marketdata"
 # Zeitraum: heutiger Tag (00:00 bis 23:00)
 now = datetime.now()
 start_time = now.replace(hour=0, minute=0, second=0, microsecond=0)
-end_time = start_time + timedelta(days=1)
+end_time = start_time + timedelta(days=2)
 
 params = {
     "start": int(start_time.timestamp() * 1000),
@@ -30,7 +30,7 @@ for item in data:
     })
 
 # Datei anhängen oder neu erstellen
-filename = "strompreise_awattar.csv"
+filename = "strompreise_awattar_daily.csv"
 df_new = pd.DataFrame(records)
 
 if os.path.exists(filename):
