@@ -23,10 +23,14 @@ jobs:
       - name: Run script
         run: python strompreise.py
 
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions"
-          git config user.name "actions@github.com"
-          git add strompreise_awattar.csv
-          git commit -m "📈 Automatisches Update der Strompreise: $(date +'%Y-%m-%d')" || echo "Nichts zu committen"
-          git push
+     - name: Commit and push
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+        git add strompreise_awattar.csv
+        git commit -m "📈 Automatisches Update der Strompreise: $(date +'%Y-%m-%d')" || echo "Nichts zu committen"
+        git push
+
