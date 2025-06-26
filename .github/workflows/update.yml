@@ -2,7 +2,7 @@ name: Update Awattar Data
 
 on:
   schedule:
-    - cron: "8 8 * * *"  # täglich 23:05 UTC (~01:05 MEZ)
+    - cron: "14 9 * * *"  # täglich 23:05 UTC (~01:05 MEZ)
   workflow_dispatch:       # Manuell auslösbar
 
 jobs:
