@@ -2,7 +2,9 @@ name: Update Awattar Data
 
 on:
   schedule:
-    - cron: "7 15 * * *"  # täglich um 23:05 UTC (mm-hh)
+    - cron: "50 07 * * *"  # täglich um 23:05 UTC (mm-hh) 50 07 * * * /usr/bin/python3 /pfad/skript.py >> /pfad/logs/cronlog.txt 2>&1
+
+
   workflow_dispatch:
 
 jobs:
