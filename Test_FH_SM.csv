@@ -7,8 +7,7 @@ KOSTAL EM - activeDevice ";"Energy Measurement
 Zählerschrank - currentPower ";"Energy Measurement 
 Zählerschrank - activeDevice ";"Energy Measurement 
 Wärmepumpe Innen - currentPower";"Energy Measurement 
-Wärmepumpe Innen - activeDevice 
-";"Energy Measurement 
+Wärmepumpe Innen - activeDevice ";"Energy Measurement 
 Wärmepumpe Außen - currentPower ";"Energy Measurement 
 Wärmepumpe Außen - activeDevice";"Car Charging 
 KEBA Wallbox P30 - currentPower";"Car Charging 
