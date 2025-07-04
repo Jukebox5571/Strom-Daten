@@ -1,0 +1,6 @@
+Tarif,Zeitspanne,Nettopreis (Ct/kWh),Bruttopreis (Ct/kWh)
+Niedrigtarif,10:30 Uhr bis 13:30 Uhr,2.73,3.25
+Hochtarif,17:30 Uhr bis 19:30 Uhr,17.04,20.28
+Standardtarif,00:00 Uhr bis 10:30 Uhr,9.09,10.82
+Standardtarif,13:30 Uhr bis 17:30 Uhr,9.09,10.82
+Standardtarif,19:30 Uhr bis 00:00 Uhr,9.09,10.82
