@@ -1,4 +1,4 @@
-Datum (MEZ);Residuallast Leistung (MW)
+Datum (MEZ);Residuallast Leistung
 01.01.25 00:00;13020,1
 01.01.25 00:15;12098,9
 01.01.25 00:30;12198,1
@@ -22982,3 +22982,4 @@ Datum (MEZ);Residuallast Leistung (MW)
 28.08.25 10:00;45780
 28.08.25 10:15;45599
 28.08.25 10:30;
+
